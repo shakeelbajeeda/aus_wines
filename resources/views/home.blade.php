@@ -6,7 +6,7 @@
                 <a class="navbar-brand" href="{{url('/')}}">AusWine</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="{{url('/')}}">Home</a></li>
                 <li><a href="{{route('wine.create')}}">Add Wine</a></li>
                 <li><a href="{{route('wine.index')}}">View All Wines</a></li>
             </ul>
